@@ -1,0 +1,442 @@
+[
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\AbstractGun.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\AbstractGun.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Cube.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Cube.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooter.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooterCameraManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooterCameraManager.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooterCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooterCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooterGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooterGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooterPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooterPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\HitscanGun.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\HitscanGun.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\PickUpItemComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\PickUpItemComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\ShootAllCubesGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\ShootAllCubesGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Horror\\HorrorCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Horror\\HorrorCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Horror\\HorrorGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Horror\\HorrorGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Horror\\HorrorPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Horror\\HorrorPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Horror\\HorrorUI.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Horror\\HorrorUI.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\AI\\EnvQueryContext_Target.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\AI\\EnvQueryContext_Target.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\AI\\ShooterAIController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\AI\\ShooterAIController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\AI\\ShooterNPC.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\AI\\ShooterNPC.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\AI\\ShooterStateTreeUtility.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\AI\\ShooterStateTreeUtility.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterBulletCounterUI.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterBulletCounterUI.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterPickup.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterPickup.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterProjectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterUI.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterUI.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterWeapon.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterWeapon.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterWeaponHolder.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\Variant_Shooter\\ShooterWeaponHolder.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	}
+]
