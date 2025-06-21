@@ -1,6 +1,7 @@
 #include "HitscanGun.h"
 #include "Kismet/GameplayStatics.h"
 #include "Camera/CameraComponent.h"
+#include "CubeShooterPlayerController.h"
 #include "Cube.h"
 
 
@@ -17,11 +18,9 @@ void AHitscanGun::BeginPlay() {
 	Super::BeginPlay();
 	
     APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
-    if (!PlayerPawn) {
-        return;
+    if (PlayerPawn) {
+        PlayerCameraComp = Cast<UCameraComponent> (PlayerPawn -> GetComponentByClass(UCameraComponent::StaticClass() ));
     }
-
-    PlayerCameraComp = Cast<UCameraComponent> (PlayerPawn -> GetComponentByClass(UCameraComponent::StaticClass() ));
 }
 
 
@@ -43,6 +42,36 @@ void AHitscanGun::Fire() {
         return;
     }
 
+    // TODO: VFX and SFX at the gun's muzzle location.
+    if (MuzzleFlash) {
+		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GunBody, TEXT("MuzzleFlashSocket"));
+	}
+	
+	if (MuzzleSound) {
+		UGameplayStatics::SpawnSoundAttached(MuzzleSound, GunBody, TEXT("MuzzleFlashSocket"));
+	}
+
+
+    ClipSize--;
+
+    if (PlayerController) {
+        PlayerController -> UpdatePlayerMagazineCountUI(ClipSize);
+    }
+
+    DelayFire(FiringRate);
+
+    // TODO: Implement Fire Animation.
+    PlayFireAnimation();
+
+    DoHitscanTrace();
+}
+
+
+void AHitscanGun::DoHitscanTrace() {
+    if (!PlayerCameraComp) {
+        return;
+    }
+    
     FVector StartLocation = PlayerCameraComp -> GetComponentLocation();
     FVector EndLocation = StartLocation + (PlayerCameraComp -> GetForwardVector() * Range);
 
@@ -56,17 +85,19 @@ void AHitscanGun::Fire() {
     );
  
     if (HasHit) {
-        // TODO: VFX at the Impact Point.
+        // TODO: VFX and SFX at the Impact Point.
+        if (BulletImpact) {
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletImpact, OutHitResult.ImpactPoint);
+		}
+        
+        if (BulletImpactSound) {
+			UGameplayStatics::PlaySoundAtLocation(GetWorld(), BulletImpactSound, OutHitResult.ImpactPoint);
+		}
+
         ACube* EnemyCube = Cast<ACube> (OutHitResult.GetActor() );
         if (EnemyCube) {
-            EnemyCube -> ApplyDamage(Damage, GetInstigatorController() );
+            EnemyCube -> ApplyDamage(Damage, PlayerController);
         }
-        DrawDebugSphere(GetWorld(), OutHitResult.ImpactPoint, 5.0f, 10, FColor::Red, false, 3.0f);
+        //DrawDebugSphere(GetWorld(), OutHitResult.ImpactPoint, 5.0f, 10, FColor::Red, false, 3.0f);
     }
-    
-    // TODO: VFX and SFX at the gun's muzzle location.
-    ClipSize--;
-
-    DelayFire(FiringRate);
-    PlayFireAnimation();
 }

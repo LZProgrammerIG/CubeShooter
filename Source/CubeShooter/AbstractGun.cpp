@@ -2,6 +2,7 @@
 #include "PickUpItemComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "CubeShooterCharacter.h"
+#include "CubeShooterPlayerController.h"
 
 
 
@@ -32,6 +33,8 @@ void AAbstractGun::BeginPlay() {
 	if (PlayerCharacter) {
 		PlayerMesh = Cast<USkeletalMeshComponent> (PlayerCharacter -> GetComponentByClass(USkeletalMeshComponent::StaticClass() ) );
 	}
+
+	PlayerController = Cast<ACubeShooterPlayerController> (UGameplayStatics::GetPlayerController(GetWorld(), 0) );
 }
 
 // Called every frame
@@ -53,7 +56,10 @@ void AAbstractGun::Reload() {
 	int BulletsNeeded = MaxClipSize - ClipSize;
 	int BulletsAvailable = FMath::Min(BulletsNeeded, Ammo);
 	ClipSize += BulletsAvailable;
-	Ammo -= BulletsAvailable;
+	//Ammo -= BulletsAvailable;
+	IncreaseAmmoCount(-BulletsAvailable);
+
+	
 }
 
 
@@ -68,12 +74,21 @@ void AAbstractGun::DelayFire(float DelayTime) {
 
 
 int AAbstractGun::GetAmmoCount() {
-	return Ammo + ClipSize;
+	return Ammo;
 }
 
-void AAbstractGun::SetAmmoCount(int AmmoCount) {
-	Ammo += AmmoCount;
+void AAbstractGun::IncreaseAmmoCount(int AdditonalAmmo) {
+	Ammo += AdditonalAmmo;
 	Ammo = FMath::Min(MaxAmmo, Ammo);
+
+	if (PlayerController) {
+		PlayerController -> UpdatePlayerMagazineCountUI(ClipSize);
+		PlayerController -> UpdatePlayerAmmoUI(Ammo);
+	}
+}
+
+int AAbstractGun::GetMagCount() {
+	return ClipSize;
 }
 
 

@@ -78,7 +78,8 @@ public:
 
 	TMap<FString, FCubeDescription> Type;
 	TArray<FCubeSpawnInfo> SpawnableCubes;
-	TArray<ACube*> CubesSpawned;
+	
+	void DecrementTotalCubesInGame();
 
 private:
 	UPROPERTY(EditDefaultsOnly, Category = SpawnableActors)
@@ -91,4 +92,6 @@ private:
 	void ExtractCubeObjects(TSharedPtr<FJsonObject> &ResponseObject);
 
 	void SpawnCubes();
+
+	int TotalCubesInGame;
 };

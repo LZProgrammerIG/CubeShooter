@@ -1,6 +1,7 @@
 #include "PickUpItemComponent.h"
 #include "CubeShooterCharacter.h"
 #include "AbstractGun.h"
+#include "CubeShooterPlayerController.h"
 
 
 
@@ -72,7 +73,7 @@ void UPickUpItemComponent::EquipGun() {
 
 		AAbstractGun* PlayerGun = PlayerCharacter -> Gun;
 		if (PlayerGun) {
-			PlayerGun -> SetAmmoCount(PickedAmmo);
+			PlayerGun -> IncreaseAmmoCount(PickedAmmo);
 		}
 
 		GetOwner() -> Destroy();
@@ -85,12 +86,22 @@ void UPickUpItemComponent::EquipGun() {
 		OnComponentBeginOverlap.RemoveDynamic(this, &UPickUpItemComponent::OnPlayerOverlap);
 
 		GetOwner() -> AttachToComponent(PlayerMesh, FAttachmentTransformRules::SnapToTargetNotIncludingScale, TEXT("HandGrip_R") );
-		PlayerCharacter -> bDoesPlayerHasGun = true;	
-		PlayerCharacter -> Gun = GetOwner<AAbstractGun> ();
+		PlayerCharacter -> bDoesPlayerHasGun = true;
+
+		AAbstractGun* Gun = GetOwner<AAbstractGun> ();	
+		PlayerCharacter -> Gun = Gun;
 		if (PlayerCharacter -> Gun) {
 			PlayerCharacter -> Gun -> PlayEquipAnimation();
+
+			ACubeShooterPlayerController* PlayerController = Gun -> PlayerController;
+			if (PlayerController) {
+				PlayerController -> UpdatePlayerAmmoUI(Gun -> GetAmmoCount() );
+				PlayerController -> UpdatePlayerMagazineCountUI(Gun -> GetMagCount() );
+			}
+
 		}
 		
+
 		GetOwner() -> SetActorEnableCollision(false);
 	}
 }

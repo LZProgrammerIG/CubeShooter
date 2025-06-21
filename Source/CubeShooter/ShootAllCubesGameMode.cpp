@@ -1,11 +1,15 @@
 #include "ShootAllCubesGameMode.h"
 #include "Json.h"
 #include "Cube.h"
+#include "Kismet/GameplayStatics.h"
+#include "CubeShooterPlayerController.h"
 
 
 
 void AShootAllCubesGameMode::StartPlay() {
     Super::StartPlay();
+
+    TotalCubesInGame = 0;
 
     FHttpRequestRef RequestRef = FHttpModule::Get().CreateRequest();
     RequestRef -> OnProcessRequestComplete().BindUObject(this, &AShootAllCubesGameMode::OnResponseReceived);
@@ -141,6 +145,20 @@ void AShootAllCubesGameMode::SpawnCubes() {
             Cube -> InitialiseCubeProperties(Desc -> Color, Desc -> Health, Desc -> Score);
         }
 
-        CubesSpawned.Add(Cube);
+        TotalCubesInGame++;
+    }
+}
+
+
+void AShootAllCubesGameMode::DecrementTotalCubesInGame() {
+    TotalCubesInGame--;
+    if (TotalCubesInGame <= 0) {
+        ACubeShooterPlayerController* PlayerController = Cast<ACubeShooterPlayerController> (
+            UGameplayStatics::GetPlayerController(GetWorld(), 0) 
+        );
+
+        if (PlayerController) {
+            PlayerController -> GameOver();
+        }
     }
 }

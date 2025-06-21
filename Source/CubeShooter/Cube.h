@@ -29,17 +29,30 @@ public:
 
 
 private:
+	class AShootAllCubesGameMode* GameMode;
+
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* RootComp;
 
 	UPROPERTY(VisibleAnywhere, Category = "Mesh")
 	UStaticMeshComponent* Mesh;
 
+	UPROPERTY(VisibleAnywhere)
+	class UWidgetComponent* WidgetComp;
+
+	UPROPERTY(EditAnywhere, Category = "Widgets")
+	TSubclassOf<class UCubeHealthWidget> CubeHealthWidgetClass;
+
+	class UCubeHealthWidget* HealthWidget;
+
 	UPROPERTY(VisibleAnywhere, Category = "Properties")
 	FVector Color;
 
 	UPROPERTY(VisibleAnywhere, Category = "Properties")
 	int Health;
+
+	UPROPERTY(VisibleAnywhere, Category = "Properties")
+	int CurrentHealth;
 
 	UPROPERTY(VisibleAnywhere, Category = "Properties")
 	int Score;

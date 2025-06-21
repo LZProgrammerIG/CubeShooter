@@ -66,12 +66,29 @@ protected:
 	float Range;
 
 
+	// VFX and SFX (Cascade for now. Will replace with Niagara in future)
+	UPROPERTY(EditAnywhere)
+	UParticleSystem* MuzzleFlash;
+
+	UPROPERTY(EditAnywhere)
+	UParticleSystem* BulletImpact;
+
+	UPROPERTY(EditAnywhere)
+	USoundBase* MuzzleSound;
+
+	UPROPERTY(EditAnywhere)
+	USoundBase* BulletImpactSound;
+
+
 public:
 	UPROPERTY(BlueprintReadWrite)
 	bool bPrimaryFire;
 
 	UPROPERTY(BlueprintReadWrite)
 	class ACubeShooterCharacter* PlayerCharacter;
+
+	UPROPERTY(BlueprintReadWrite)
+	class ACubeShooterPlayerController* PlayerController;
 
 	UFUNCTION(BlueprintCallable)
 	virtual void Fire() PURE_VIRTUAL(AAbstractGun::Fire);
@@ -89,7 +106,9 @@ public:
 	void PlayFireAnimation();
 
 	int GetAmmoCount();
-	void SetAmmoCount(int AmmoCount);
+	void IncreaseAmmoCount(int AdditonalAmmo);
+
+	int GetMagCount();
 
 	bool GetIsFireReady();
 	void SetIsFireReady(bool bIsReadyToFire);

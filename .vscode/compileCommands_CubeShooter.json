@@ -32,6 +32,22 @@
 		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
 	},
 	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeHealthWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeHealthWidget.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
 		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\CubeShooter.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
@@ -145,6 +161,22 @@
 	},
 	{
 		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\PickUpItemComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\PlayerHUDWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"
+		],
+		"directory": "G:\\GAMES\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Prototypes\\CubeShooter\\Source\\CubeShooter\\PlayerHUDWidget.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
 			"@G:\\Unreal Prototypes\\CubeShooter\\.vscode\\compileCommands_CubeShooter\\CubeShooter.1.rsp"

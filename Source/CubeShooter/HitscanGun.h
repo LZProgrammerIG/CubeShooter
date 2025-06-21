@@ -27,4 +27,6 @@ public:
 private:
 	class UCameraComponent* PlayerCameraComp;
 	FHitResult OutHitResult;
+
+	void DoHitscanTrace();
 };
